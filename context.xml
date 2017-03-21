@@ -33,14 +33,14 @@
     -->
 	
 
-	    <Valve className="com.orangefunction.tomcat.redissessions.RedisSessionHandlerValve" />
-		<Manager className="com.orangefunction.tomcat.redissessions.RedisSessionManager"
-         host="192.168.3.57" 
-         port="6379" 
-         database="0" 
-         maxInactiveInterval="60" 
+	<Valve className="com.orangefunction.tomcat.redissessions.RedisSessionHandlerValve" />
+	<Manager className="com.orangefunction.tomcat.redissessions.RedisSessionManager"
+		 host="192.168.3.57" 
+		 port="6379" 
+		 database="0" 
+		 maxInactiveInterval="60" 
 		 password="wohenshuaihehe"
-		 />
+	/>
 
 	
 </Context>
