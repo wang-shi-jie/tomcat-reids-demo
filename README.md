@@ -26,7 +26,7 @@ tomcat-juli-7.0.27.jar</br>
 ###  4.编译tomcat-redis-session-manager.jar
 网上下的jar包因为环境不同可能不能直接用，可能回报一些莫名其妙的错误，如缺少类、类型不匹配等问题。
 需要在自己的开发环境下编译tomcat-redis-session-manager的jar包</br>
- （1）从https://github.com/jcoleman/tomcat-redis-session-manager/tree/master下载源码</br>
+ （1）从https://github.com/jcoleman/tomcat-redis-session-manager/tree/master 下载源码</br>
  （2）eclipse新建maven工程，导入tomcat-redis-session-manager源码</br>
  （3）在新建的maven工程导入tomcat的lib目录下所有jar包，这里为了方便导入所有。</br>
  （4）编译maven项目，生成tomcat-redis-session-manager.jar文件</br>
