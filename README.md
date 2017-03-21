@@ -32,3 +32,5 @@ tomcat-juli-7.0.27.jar</br>
  （4）编译maven项目，生成tomcat-redis-session-manager.jar文件</br>
 
 ###  5.把编译的tomcat-redis-session-manager.jar复制到tomcat的lib目录下
+
+###  6.重启tomcat
